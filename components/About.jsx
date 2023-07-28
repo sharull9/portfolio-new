@@ -19,7 +19,7 @@ export default function About() {
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Hello, I&apos;m{" "}
-            <a href="https://instagram/sh_ar_ull" className="text-blue-700">
+            <a href="https://instagram.com/sh_ar_ull" className="text-blue-700">
               Arafatulla
             </a>
             , a dedicated front-end developer with a passion for crafting
