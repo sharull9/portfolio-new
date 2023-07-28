@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="bg-white/30 backdrop-blur dark:bg-gray-900 fixed w-full z-50 top-0 left-0 border-b border-gray-200">
+    <nav className="bg-white/30 backdrop-blur fixed w-full z-50 top-0 left-0 border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
           <span className="self-center font-playfair text-2xl font-semibold whitespace-nowrap">
