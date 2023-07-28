@@ -29,6 +29,7 @@ export default function HeroSection() {
             <Image
               src="/me.jpg"
               className="absolute inset-0 rounded-full"
+              alt="self-portrait"
               fill
             />
             <motion.div
@@ -49,7 +50,7 @@ export default function HeroSection() {
         </div>
         <div className="text-center mt-4">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Hi, I'm Arafatulla
+            Hi, I&apos;m Arafatulla
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             I find joy in transforming ideas into reality.

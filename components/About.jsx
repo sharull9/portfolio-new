@@ -8,6 +8,7 @@ export default function About() {
         <Image
           src={"/me.jpg"}
           className="absoulte inset-0 object-cover rounded aspect-square"
+          alt="self-portrait"
           fill
         />
       </div>

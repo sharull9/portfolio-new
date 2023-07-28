@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import LinkText from "./LinkText";
 
 const posts = [
@@ -113,10 +114,12 @@ export default function Blog() {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <img
+                <Image
                   src={post.author.imageUrl}
-                  alt=""
                   className="h-10 w-10 rounded-full bg-gray-50"
+                  width={20}
+                  height={20}
+                  alt="blog images"
                 />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">
