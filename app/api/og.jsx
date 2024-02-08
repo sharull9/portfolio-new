@@ -1,5 +1,4 @@
 import { ImageResponse } from '@vercel/og';
-import Image from "next/image";
  
 export const config = {
   runtime: 'edge',
@@ -17,10 +16,10 @@ export default function () {
           width: '100%',
           height: '100%',
           display: 'flex',
-          position: 'relative'
+          position: 'relative',
           textAlign: 'center',
           alignItems: 'center',
-          justifyContent: 'center',
+          justifyContent: 'center'
         }}
       >
         SHARULL
